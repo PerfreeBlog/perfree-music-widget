@@ -4,10 +4,12 @@ import cn.hutool.core.util.StrUtil;
 import com.perfree.commons.OptionCacheUtil;
 import com.perfree.plugin.proxy.HtmlRenderProxy;
 import org.jsoup.nodes.Document;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@Component
 public class MusicWidget extends HtmlRenderProxy {
     @Override
     public Document editFrontDocument(Document document, HttpServletResponse response, HttpServletRequest request) {

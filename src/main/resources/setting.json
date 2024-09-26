@@ -1,0 +1,104 @@
+{
+  "option": {
+    "form": {
+      "inline": false,
+      "hideRequiredAsterisk": false,
+      "labelPosition": "right",
+      "size": "default",
+      "labelWidth": "125px"
+    },
+    "resetBtn": {
+      "show": false,
+      "innerText": "重置"
+    },
+    "submitBtn": {
+      "show": true,
+      "innerText": "提交"
+    }
+  },
+  "rule": [
+    {
+      "type": "input",
+      "field": "MUSIC_WIDGET_ID",
+      "title": "歌单ID",
+      "info": "歌单ID",
+      "$required": false,
+      "props": {
+        "placeholder": "请输入网易云歌单ID"
+      },
+      "_fc_id": "id_Fin0m1ira8f9acc",
+      "name": "ref_Fllom1ira8f9adc",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "input"
+    },
+    {
+      "type": "colorPicker",
+      "field": "MUSIC_WIDGET_THEME",
+      "title": "主题颜色",
+      "info": "主题颜色",
+      "$required": false,
+      "_fc_id": "id_F7gem1iratfwafc",
+      "name": "ref_Fcm8m1iratfwagc",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "colorPicker"
+    },
+    {
+      "type": "select",
+      "field": "MUSIC_WIDGET_ORDER",
+      "title": "播放顺序",
+      "info": "播放顺序",
+      "effect": {
+        "fetch": ""
+      },
+      "$required": false,
+      "props": {
+        "placeholder": "请选择播放顺序"
+      },
+      "options": [
+        {
+          "label": "顺序",
+          "value": "list"
+        },
+        {
+          "label": "随机",
+          "value": "random"
+        }
+      ],
+      "_fc_id": "id_Fnmxm1irb9owaic",
+      "name": "ref_Fq1fm1irb9owajc",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "select"
+    },
+    {
+      "type": "select",
+      "field": "MUSIC_WIDGET_AUTOPLAY",
+      "title": "自动播放",
+      "info": "自动播放",
+      "effect": {
+        "fetch": ""
+      },
+      "$required": false,
+      "props": {
+        "placeholder": "是否自动播放"
+      },
+      "options": [
+        {
+          "label": "关闭",
+          "value": "false"
+        },
+        {
+          "label": "开启",
+          "value": "true"
+        }
+      ],
+      "_fc_id": "id_Fyonm1irc521alc",
+      "name": "ref_Fe3zm1irc521amc",
+      "display": true,
+      "hidden": false,
+      "_fc_drag_tag": "select"
+    }
+  ]
+}
